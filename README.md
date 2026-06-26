@@ -1,5 +1,7 @@
 # 📜 Syllabus: Full-Stack MERN Development Journey
 
+hello my name is Nihal nice to see you
+
 ## 🎯 Course Overview
 Welcome to the self-paced syllabus for mastering full-stack web development. This repository serves as a digital transcript, lab notebook, and portfolio for tracking the evolution from frontend basics to scalable, cloud-deployed full-stack applications.
 
