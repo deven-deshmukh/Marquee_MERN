@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <h1 align="center">Sports Physical Form</h1>
+
+        <!-- Athlete Information -->
+        <fieldset>
+            <legend>Athlete Information</legend>
+            <ul>
+                <li>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" required>
+                </li>
+                <li>
+                    <label for="school">School/Team:</label>
+                    <input type="text" id="school" required>
+                </li>
+                <li>
+                    <label for="sport">Sport:</label>
+                    <input type="text" id="sport" required>
+                </li>
+                <li>
+                    <label for="parent-guardian">Parent/Guardian Name:</label>
+                    <input type="text" id="parent-guardian" required>
+                </li>
+                <li>
+                    <label for="contact">Contact NO:</label>
+                    <input type="text" id="contact" required>
+                </li>
+            </ul>
+        </fieldset>
+
+        <!-- Medical History of Athlete -->
+        <fieldset>
+            <legend>Medical History for Athlete</legend>
+            <ul>
+                <li>
+                    <label for="medical-history">History of Concussions:</label>
+                    <input type="radio" id="medical-history" name="medical-history" value="Yes" required>
+                    <label for="medical-history-yes">Yes</label>
+                    <input type="radio" id="medical-history-no" name="medical-history" value="No" required>
+                    <label for="medical-history-no">No</label>
+                </li>
+                <li>
+                    <label for="previous-surgeries">Previous Surgeries:</label>
+                    <input type="text" id="previous-surgeries" required>
+                </li>
+                <li>
+                    <label for="bone-fractures">Any bone fractures:</label>
+                    <input type="radio" id="bone-fractures" name="bone-fractures" value="Yes" required>
+                    <label for="bone-fractures-yes">Yes</label>
+                    <input type="radio" id="bone-fractures-no" name="bone-fractures" value="No" required>
+                    <label for="bone-fractures-no">No</label>
+                </li>
+                <li>
+                    <label for="bone-fractures">Asthma of breathing problem:</label>
+                    <input type="radio" id="bone-fractures" name="bone-fractures" value="Yes" required>
+                    <label for="bone-fractures-yes">Yes</label>
+                    <input type="radio" id="bone-fractures-no" name="bone-fractures" value="No" required>
+                    <label for="bone-fractures-no">No</label>
+                </li>
+
+            </ul>
+        </fieldset>
+
+        <!-- Fitness Assessment -->
+        <fieldset>
+            <legend>Fitness Assessment</legend>
+        </fieldset>
+
+        <!-- Doctor's Recommendations -->
+        <fieldset>
+            <legend>Doctor's Recommendations for sports Participation</legend>
+            <label for="doctor-recommendations">Recommendations:</label>
+            <input id="doctor-recommendations" rows="4" cols="50"></input>
+        </fieldset>
+
+
+        <!-- <button type="submit">Submit</button> -->
+        <button type="submit" align="center">Submit</button>
+    </form>
+</body>
+
+</html>
