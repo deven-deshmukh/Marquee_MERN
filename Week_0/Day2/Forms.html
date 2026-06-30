@@ -61,13 +61,28 @@
                     <label for="bone-fractures-no">No</label>
                 </li>
                 <li>
-                    <label for="bone-fractures">Asthma of breathing problem:</label>
-                    <input type="radio" id="bone-fractures" name="bone-fractures" value="Yes" required>
-                    <label for="bone-fractures-yes">Yes</label>
-                    <input type="radio" id="bone-fractures-no" name="bone-fractures" value="No" required>
-                    <label for="bone-fractures-no">No</label>
+                    <label for="asthma">Asthma or breathing problem:</label>
+                    <input type="radio" id="asthma" name="asthma" value="Yes" required>
+                    <label for="asthma-yes">Yes</label>
+                    <input type="radio" id="asthma-no" name="asthma" value="No" required>
+                    <label for="asthma-no">No</label>
                 </li>
 
+                <li>
+                    Stream - <select id="stream" required>
+                        <option value="">Select Stream</option>
+                        <option value="BTech">BTech</option>
+                        <option value="BSC">BSC</option>
+                        <option value="BE">BE</option>
+
+                    </select>
+                </li>
+                <li>
+                    Location - <textarea id="location" placeholder="Enter Location" rows="4" cols="50"
+                        required></textarea>
+                </li>
+                <li>
+                </li>
             </ul>
         </fieldset>
 
@@ -85,7 +100,7 @@
 
 
         <!-- <button type="submit">Submit</button> -->
-        <button type="submit" align="center">Submit</button>
+        <button type="submit">Submit</button>
     </form>
 </body>
 
