@@ -1,0 +1,10 @@
+p{
+    color: greenyellow;
+}
+h2{
+    color: red;
+}
+a:hover{
+    color: red;
+    background:greenyellow;
+}
