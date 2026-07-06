@@ -1,0 +1,34 @@
+/* SELECTORS : - */
+
+
+/* Universal */
+/* *{
+    background-color: black;
+    color:white;
+} */
+
+/* TYPE  */
+/* p{
+    font-family:cursive;
+} */
+
+/* CLASS */
+/* .formating{
+    background-color: bisque;
+} */
+
+/* ID */
+/* #internal{
+    font-size: 30px;
+} */
+
+/* Group */
+/* #internal,
+#heading{
+    background-color: black;
+    color: aliceblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+} */
+
+/*  */
