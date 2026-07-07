@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Eater&display=swap');
+p{
+    font-family:'Eater',cursive;
+    color: rgb(172, 17, 17);
+    background-color: yellowgreen ;
+}
+h3{
+    font-family:'Eater',cursive;
+    color: rgb(172, 17, 17);
+    font-size: 50px;
+    text-align: center;
+}
+.formatting{
+    
+}
