@@ -13,3 +13,11 @@ p{
 ul{
     color:palevioletred;
 }
+span{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: white;
+    margin: 20px 0px;
+    padding: 20px 4px;
+    border: 5px solid black;
+
+}
