@@ -1,0 +1,16 @@
+#media {
+    position: fixed;
+    right: 50px;
+    bottom: 0px;
+    border: 5px solid black;
+    display: inline-block;
+}
+
+td,
+th {
+    border: 4px double Black;
+
+}
+table{
+    border-collapse: collapse;
+}

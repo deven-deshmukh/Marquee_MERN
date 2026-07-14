@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Eater&display=swap');
+#top-section {
+    position: sticky;
+    top: 0px;
+
+}
+
+#bot {
+    position: fixed;
+    bottom:50px ;
+    right: 0px;
+}
+body{
+    background-color: black;
+    color: red;
+    font-family: "eater";
+    
+}
+p{
+
+}

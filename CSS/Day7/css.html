@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #eef3fb;
+            color: #172435;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 42px auto 24px;
+            font-size: 2.6rem;
+            letter-spacing: 1.5px;
+            color: #102840;
+        }
+
+        #MainDiv {
+            max-width: 1200px;
+            margin: 0 auto 40px;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+            gap: 24px;
+        }
+
+        .service-card {
+            display: flex;
+            align-items: flex-start;
+            gap: 18px;
+            padding: 22px 18px;
+            
+ 
+        }
+
+        .service-card:hover .icon {
+            background: #E63946;
+            color:whitesmoke;
+        }
+
+        .service-card:hover h4 {
+            color:#E63946;
+        }
+
+        .service-card .icon {
+            width: 56px;
+            height: 56px;
+            min-width: 56px;
+            border-radius: 100%;
+            display: grid;
+            place-items: center;
+            background: #e8f0ff;
+            color: #1d2c48;
+            font-size: 1.35rem;
+        }
+
+        .service-card h4 {
+            margin: 0 0 10px;
+            font-size: 1.08rem;
+            color: #122135;
+        }
+
+        .service-card-content {
+            display: grid;
+            gap: 6px;
+        }
+
+        .service-card p {
+            margin: 0;
+            color: #5b6a82;
+            line-height: 1.75;
+            font-size: 0.98rem;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>OUR SERVICES</h1>
+    <div id="MainDiv">
+        <div class="service-card">
+            <div class="icon"><i class="fa-solid fa-clipboard-list"></i></div>
+            <div class="service-card-content">
+                <h4>Manual Testing</h4>
+                <p>Comprehensive manual testing to ensure your software functions as intended.</p>
+            </div>
+        </div>
+        <div class="service-card">
+            <div class="icon"><i class="fa-solid fa-gears"></i></div>
+            <div class="service-card-content">
+                <h4>Automated Testing</h4>
+                <p>Efficient and reliable automated testing solutions to save time and resources.</p>
+            </div>
+        </div>
+        <div class="service-card">
+            <div class="icon"><i class="fa-solid fa-diagram-project"></i></div>
+            <div class="service-card-content">
+                <h4>API Testing</h4>
+                <p>We help you deliver seamless and high-quality digital experiences by thoroughly evaluating your APIs.
+                </p>
+            </div>
+        </div>
+        <div class="service-card">
+            <div class="icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+            <div class="service-card-content">
+                <h4>Mobile Testing</h4>
+                <p>QASSERT's mobile testing ensures seamless, reliable user experiences across devices.</p>
+            </div>
+        </div>
+        <div class="service-card">
+            <div class="icon"><i class="fa-solid fa-shield-halved"></i></div>
+            <div class="service-card-content">
+                <h4>Security Testing</h4>
+                <p>Identifying vulnerabilities to protect your software from potential threats.</p>
+            </div>
+        </div>
+        <div class="service-card">
+            <div class="icon"><i class="fa-solid fa-user-check"></i></div>
+            <div class="service-card-content">
+                <h4>Usability Testing</h4>
+                <p>Ensuring your software meets user requirements and expectations.</p>
+            </div>
+        </div>
+        <div class="service-card">
+            <div class="icon"><i class="fa-solid fa-stopwatch-20"></i></div>
+            <div class="service-card-content">
+                <h4>Performance Testing</h4>
+                <p>Evaluating software performance under different conditions to ensure stability and scalability.</p>
+            </div>
+        </div>
+        <div class="service-card">
+            <div class="icon"><i class="fa-solid fa-universal-access"></i></div>
+            <div class="service-card-content">
+                <h4>Accessibility Testing</h4>
+                <p>Making sure your software is accessible to all users, including those with disabilities.</p>
+            </div>
+        </div>
+        <div class="service-card">
+            <div class="icon"><i class="fa-solid fa-eye"></i></div>
+            <div class="service-card-content">
+                <h4>Visual Testing</h4>
+                <p>Verifying the visual correctness of your software across different interfaces.</p>
+            </div>
+        </div>
+        <div class="service-card">
+            <div class="icon"><i class="fa-solid fa-computer"></i></div>
+            <div class="service-card-content">
+                <h4>Compatibility Testing</h4>
+                <p>Ensuring your software works seamlessly across various devices and environments.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
